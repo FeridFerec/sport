@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    background-image: url(6777-min.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main .contaBox .Box{
+    border: 2px solid grey;
+    height: 200px;
+    width: 250px;
+    background-color: white;
+    border-top: 4px solid rgb(228, 32, 65);
+    display: flex;
+    flex-direction: column;
+ 
+    align-items: center;
+    
+
+}
+main .contaBox .Box .iconBox{
+    background-color: rgb(203, 28, 57);
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+main .contaBox .Box .iconBox i{
+    color: white;
+    font-size: 40px;
+}
+main .contaBox .Box .miniBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+    bottom: 40px;
+}
+main .contaBox .Box .miniBox a{
+    color: black;
+    text-decoration: underline black;
+}
+main .contaBox .Box .miniBox:hover a{
+    color: rgb(161, 23, 46);
+}
+main .contaBox{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+@media(max-width:1231px){
+    main{
+       background-size: 1600px;
+       padding: 40px 0;
+       background-position: center;
+    }
+    
+}
+@media(max-width:515px){
+    main{
+        height: fit-content;
+       background-size: 1411px;
+       padding: 40px 0;
+       background-position: 60% 50%;
+    }
+    
+}
